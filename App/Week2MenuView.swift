@@ -1,18 +1,15 @@
-//
-//  Week2MenuView.swift
-//  LTTBDD
-//
-//  Created by Quang Vũ on 22/12/25.
-//
-
 import SwiftUI
 
 struct Week2MenuView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            NavigationLink("Bài 1 – Tuần 2 (Nhập số tạo danh sách)") {
+                Bai1_Week2()
+            }
+            NavigationLink("Bài 2 – Tuần 2 (Calculator)") {
+                Bai2_Week2()
+            }
+        }
+        .navigationTitle("Tuần 2")
     }
-}
-
-#Preview {
-    Week2MenuView()
 }

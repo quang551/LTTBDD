@@ -6,17 +6,37 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5B32D3B42EF989AF003866A7 /* Bai1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32D3B32EF989AF003866A7 /* Bai1.swift */; };
+		5B32D3B72EF9973D003866A7 /* LTTBDDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32D3B62EF9973D003866A7 /* LTTBDDApp.swift */; };
+		5B32D3B92EF9975D003866A7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32D3B82EF9975D003866A7 /* HomeView.swift */; };
+		5B32D3BB2EF99AB0003866A7 /* Week1MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32D3BA2EF99AB0003866A7 /* Week1MenuView.swift */; };
+		5B32D3BD2EF99AF1003866A7 /* Week2MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32D3BC2EF99AF1003866A7 /* Week2MenuView.swift */; };
+		5B32D3BF2EF99B7D003866A7 /* Week3MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32D3BE2EF99B7D003866A7 /* Week3MenuView.swift */; };
+		5B32D3C12EF99E9C003866A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B32D3C02EF99E9C003866A7 /* Assets.xcassets */; };
+		5B32D3C42EF9AFBF003866A7 /* Bai1_Week2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32D3C32EF9AFBF003866A7 /* Bai1_Week2.swift */; };
+		5B32D3C62EF9B024003866A7 /* Bai2_Week2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32D3C52EF9B024003866A7 /* Bai2_Week2.swift */; };
+		5B32D3C92EF9B1C8003866A7 /* Bai1_Week3_NullableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32D3C82EF9B1C8003866A7 /* Bai1_Week3_NullableView.swift */; };
+		5B32D3CB2EF9B1E6003866A7 /* Bai2_Week3_PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32D3CA2EF9B1E6003866A7 /* Bai2_Week3_PaymentView.swift */; };
+		5B32D3CD2EF9B202003866A7 /* Bai3_Week3_LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32D3CC2EF9B201003866A7 /* Bai3_Week3_LibraryView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		5B32D3972EF98755003866A7 /* LTTBDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTTBDD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B32D3B22EF989AF003866A7 /* LTTBDD-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LTTBDD-Bridging-Header.h"; sourceTree = "<group>"; };
+		5B32D3B32EF989AF003866A7 /* Bai1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bai1.swift; sourceTree = "<group>"; };
+		5B32D3B62EF9973D003866A7 /* LTTBDDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTTBDDApp.swift; sourceTree = "<group>"; };
+		5B32D3B82EF9975D003866A7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5B32D3BA2EF99AB0003866A7 /* Week1MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week1MenuView.swift; sourceTree = "<group>"; };
+		5B32D3BC2EF99AF1003866A7 /* Week2MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week2MenuView.swift; sourceTree = "<group>"; };
+		5B32D3BE2EF99B7D003866A7 /* Week3MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week3MenuView.swift; sourceTree = "<group>"; };
+		5B32D3C02EF99E9C003866A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B32D3C32EF9AFBF003866A7 /* Bai1_Week2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bai1_Week2.swift; sourceTree = "<group>"; };
+		5B32D3C52EF9B024003866A7 /* Bai2_Week2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bai2_Week2.swift; sourceTree = "<group>"; };
+		5B32D3C82EF9B1C8003866A7 /* Bai1_Week3_NullableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bai1_Week3_NullableView.swift; sourceTree = "<group>"; };
+		5B32D3CA2EF9B1E6003866A7 /* Bai2_Week3_PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bai2_Week3_PaymentView.swift; sourceTree = "<group>"; };
+		5B32D3CC2EF9B201003866A7 /* Bai3_Week3_LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bai3_Week3_LibraryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		5B32D3992EF98755003866A7 /* LTTBDD */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LTTBDD;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5B32D3942EF98755003866A7 /* Frameworks */ = {
@@ -32,7 +52,9 @@
 		5B32D38E2EF98755003866A7 = {
 			isa = PBXGroup;
 			children = (
-				5B32D3992EF98755003866A7 /* LTTBDD */,
+				5B32D3B52EF99626003866A7 /* App */,
+				5B32D3B02EF98947003866A7 /* Weeks */,
+				5B32D3AE2EF98932003866A7 /* Shared */,
 				5B32D3982EF98755003866A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +65,64 @@
 				5B32D3972EF98755003866A7 /* LTTBDD.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5B32D3AE2EF98932003866A7 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		5B32D3B02EF98947003866A7 /* Weeks */ = {
+			isa = PBXGroup;
+			children = (
+				5B32D3C72EF9B1B5003866A7 /* Tuan3 */,
+				5B32D3C22EF9AF34003866A7 /* Tuan2 */,
+				5B32D3B12EF98989003866A7 /* Tuan1 */,
+			);
+			path = Weeks;
+			sourceTree = "<group>";
+		};
+		5B32D3B12EF98989003866A7 /* Tuan1 */ = {
+			isa = PBXGroup;
+			children = (
+				5B32D3B32EF989AF003866A7 /* Bai1.swift */,
+				5B32D3C02EF99E9C003866A7 /* Assets.xcassets */,
+				5B32D3B22EF989AF003866A7 /* LTTBDD-Bridging-Header.h */,
+			);
+			path = Tuan1;
+			sourceTree = "<group>";
+		};
+		5B32D3B52EF99626003866A7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5B32D3B62EF9973D003866A7 /* LTTBDDApp.swift */,
+				5B32D3B82EF9975D003866A7 /* HomeView.swift */,
+				5B32D3BA2EF99AB0003866A7 /* Week1MenuView.swift */,
+				5B32D3BC2EF99AF1003866A7 /* Week2MenuView.swift */,
+				5B32D3BE2EF99B7D003866A7 /* Week3MenuView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5B32D3C22EF9AF34003866A7 /* Tuan2 */ = {
+			isa = PBXGroup;
+			children = (
+				5B32D3C32EF9AFBF003866A7 /* Bai1_Week2.swift */,
+				5B32D3C52EF9B024003866A7 /* Bai2_Week2.swift */,
+			);
+			path = Tuan2;
+			sourceTree = "<group>";
+		};
+		5B32D3C72EF9B1B5003866A7 /* Tuan3 */ = {
+			isa = PBXGroup;
+			children = (
+				5B32D3C82EF9B1C8003866A7 /* Bai1_Week3_NullableView.swift */,
+				5B32D3CA2EF9B1E6003866A7 /* Bai2_Week3_PaymentView.swift */,
+				5B32D3CC2EF9B201003866A7 /* Bai3_Week3_LibraryView.swift */,
+			);
+			path = Tuan3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +139,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				5B32D3992EF98755003866A7 /* LTTBDD */,
 			);
 			name = LTTBDD;
 			packageProductDependencies = (
@@ -82,6 +159,7 @@
 				TargetAttributes = {
 					5B32D3962EF98755003866A7 = {
 						CreatedOnToolsVersion = 26.2;
+						LastSwiftMigration = 2620;
 					};
 				};
 			};
@@ -109,6 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B32D3C12EF99E9C003866A7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +198,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B32D3C42EF9AFBF003866A7 /* Bai1_Week2.swift in Sources */,
+				5B32D3C92EF9B1C8003866A7 /* Bai1_Week3_NullableView.swift in Sources */,
+				5B32D3CD2EF9B202003866A7 /* Bai3_Week3_LibraryView.swift in Sources */,
+				5B32D3B42EF989AF003866A7 /* Bai1.swift in Sources */,
+				5B32D3CB2EF9B1E6003866A7 /* Bai2_Week3_PaymentView.swift in Sources */,
+				5B32D3B72EF9973D003866A7 /* LTTBDDApp.swift in Sources */,
+				5B32D3B92EF9975D003866A7 /* HomeView.swift in Sources */,
+				5B32D3BF2EF99B7D003866A7 /* Week3MenuView.swift in Sources */,
+				5B32D3BB2EF99AB0003866A7 /* Week1MenuView.swift in Sources */,
+				5B32D3C62EF9B024003866A7 /* Bai2_Week2.swift in Sources */,
+				5B32D3BD2EF99AF1003866A7 /* Week2MenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +339,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
@@ -269,6 +360,8 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Weeks/Tuan1/LTTBDD-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -280,6 +373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
@@ -300,6 +394,7 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Weeks/Tuan1/LTTBDD-Bridging-Header.h";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

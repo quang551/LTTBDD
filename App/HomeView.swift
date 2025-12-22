@@ -1,18 +1,14 @@
-//
-//  ContentView.swift
-//  LTTBDD
-//
-//  Created by Quang Vũ on 22/12/25.
-//
-
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List {
+                NavigationLink("Tuần 1") { Week1MenuView() }
+                NavigationLink("Tuần 2") { Week2MenuView() }
+                NavigationLink("Tuần 3") { Week3MenuView() }
+            }
+            .navigationTitle("LTTBDD")
+        }
     }
-}
-
-#Preview {
-    ContentView()
 }

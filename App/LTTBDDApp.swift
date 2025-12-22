@@ -1,8 +1,10 @@
-//
-//  LTTBDDApp.swift
-//  LTTBDD
-//
-//  Created by Quang Vũ on 22/12/25.
-//
+import SwiftUI
 
-import Foundation
+@main
+struct LTTBDDApp: App {
+    var body: some Scene {
+        WindowGroup {
+            HomeView()
+        }
+    }
+}

@@ -1,18 +1,18 @@
-//
-//  Week3MenuView.swift
-//  LTTBDD
-//
-//  Created by Quang Vũ on 22/12/25.
-//
-
 import SwiftUI
 
 struct Week3MenuView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            NavigationLink("Bài 1 – Nullable (Optional)") {
+                Bai1_Week3_NullableView()
+            }
+            NavigationLink("Bài 2 – Chọn hình thức thanh toán (OOP)") {
+                Bai2_Week3_PaymentView()
+            }
+            NavigationLink("Bài 3 – Quản lý thư viện") {
+                Bai3_Week3_LibraryView()
+            }
+        }
+        .navigationTitle("Tuần 3")
     }
-}
-
-#Preview {
-    Week3MenuView()
 }
